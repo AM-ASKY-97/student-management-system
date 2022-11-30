@@ -21,7 +21,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-6 mt-3">
+            <!--form-->
+            <div class="col-xs-12 col-sm-8 col-md-6 mt-3">
                 <form action="">
                     <div class="row mb-3">
                         <div class="col-6">
@@ -58,10 +59,13 @@
                     
                 </form>
             </div>
+            <!--end form-->
 
-            <div class="col-6 mt-3">
+            <!---Image-->
+            <div class="col-xs-12 col-sm-4 col-md-6 mt-3">
                 <img src="https://postingtip.com/wp-content/uploads/2022/07/assignmenthelp.jpg" alt="" class="img-fluid rounded">
             </div>
+            <!-- end Image-->
         </div>
     </div>
 </body>
