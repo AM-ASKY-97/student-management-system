@@ -5,7 +5,7 @@ function validate(){
     var phoneNumber = document.myForm.phoneNumber.value;
     var address = document.myForm.address.value;
 
-    if (fName == "")
+    if (fName=="")
     {
         document.getElementById('fName').innerHTML = "Enter your Name";
         return(false);
@@ -14,7 +14,7 @@ function validate(){
     }
 
 
-    if(lName =="")
+    if(lName=="")
     {
         document.getElementById('lName').innerHTML = "Enter Your Last Name";
         return(false);
@@ -23,7 +23,7 @@ function validate(){
     }
 
 
-    if(email == "")
+    if(email=="")
     {
         document.getElementById('email').innerHTML = "Enter Your Email ID"
         return(false);
@@ -32,7 +32,7 @@ function validate(){
     }
 
 
-    if(phoneNumber == ""){
+    if(phoneNumber==""){
         document.getElementById('phoneNumber').innerHTML = "Enter Your Phone Number";
         return(false);
     }else{
@@ -40,7 +40,7 @@ function validate(){
     }
 
 
-    if(address == ""){
+    if(address==""){
         document.getElementById('address').innerHTML = "Enter Your Address";
         return(false);
     }else{
